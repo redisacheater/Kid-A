@@ -2,8 +2,11 @@ exports.host = 'sim.smogon.com';
 exports.port = 8000;
 
 // Host and port to use for the http server part of Kid A.
-exports.serverhost = 'http://orderofphoenix.herokuapp.com-80.psim.us/';
-exports.serverport = 80;
+exports.server = 'orderofphoenix.glitch.me';
+
+exports.port = 80;
+
+exports.serverid = 'orderofphoenix.glitch.me:80';
 
 // Enter a value (or load a file) for these if you want to use https and SSL.
 exports.sslCert = '';
